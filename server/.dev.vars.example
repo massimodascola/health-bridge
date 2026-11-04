@@ -1,0 +1,4 @@
+# Local tokens for "npm run dev". Copy to server/.dev.vars (ignored by git).
+INGEST_TOKEN=local-ingest-token
+READ_TOKEN=local-read-token
+SHARE_TOKEN=local-share-token

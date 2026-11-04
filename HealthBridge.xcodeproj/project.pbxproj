@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D0A0000000000000000001C /* HealthBridgeWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1D0A00000000000000000011 /* HealthBridgeWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D0A0000000000000000001E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D0A0000000000000000000A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D0A00000000000000000018;
+			remoteInfo = HealthBridgeWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1D0A0000000000000000001D /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1D0A0000000000000000001C /* HealthBridgeWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1D0A00000000000000000001 /* HealthBridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthBridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D0A00000000000000000002 /* HealthBridge.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HealthBridge.entitlements; sourceTree = "<group>"; };
+		1D0A00000000000000000020 /* HealthBridge-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HealthBridge-Info.plist"; sourceTree = "<group>"; };
+		1D0A00000000000000000021 /* HealthBridgeWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HealthBridgeWidget.entitlements; sourceTree = "<group>"; };
+		1D0A00000000000000000011 /* HealthBridgeWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = HealthBridgeWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D0A00000000000000000012 /* HealthBridgeWidget.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = HealthBridgeWidget.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		1D0A00000000000000000003 /* HealthBridge */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HealthBridge;
+			sourceTree = "<group>";
+		};
+		1D0A00000000000000000013 /* HealthBridgeWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HealthBridgeWidget;
+			sourceTree = "<group>";
+		};
+		1D0A00000000000000000014 /* Shared */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D0A00000000000000000004 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D0A00000000000000000015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D0A00000000000000000005 = {
+			isa = PBXGroup;
+			children = (
+				1D0A00000000000000000002 /* HealthBridge.entitlements */,
+				1D0A00000000000000000020 /* HealthBridge-Info.plist */,
+				1D0A00000000000000000012 /* HealthBridgeWidget.plist */,
+				1D0A00000000000000000021 /* HealthBridgeWidget.entitlements */,
+				1D0A00000000000000000003 /* HealthBridge */,
+				1D0A00000000000000000013 /* HealthBridgeWidget */,
+				1D0A00000000000000000014 /* Shared */,
+				1D0A00000000000000000006 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D0A00000000000000000006 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D0A00000000000000000001 /* HealthBridge.app */,
+				1D0A00000000000000000011 /* HealthBridgeWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D0A00000000000000000007 /* HealthBridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D0A0000000000000000000B /* Build configuration list for PBXNativeTarget "HealthBridge" */;
+			buildPhases = (
+				1D0A00000000000000000008 /* Sources */,
+				1D0A00000000000000000004 /* Frameworks */,
+				1D0A00000000000000000009 /* Resources */,
+				1D0A0000000000000000001D /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D0A0000000000000000001F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1D0A00000000000000000003 /* HealthBridge */,
+				1D0A00000000000000000014 /* Shared */,
+			);
+			name = HealthBridge;
+			packageProductDependencies = (
+			);
+			productName = HealthBridge;
+			productReference = 1D0A00000000000000000001 /* HealthBridge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D0A00000000000000000018 /* HealthBridgeWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D0A00000000000000000019 /* Build configuration list for PBXNativeTarget "HealthBridgeWidgetExtension" */;
+			buildPhases = (
+				1D0A00000000000000000016 /* Sources */,
+				1D0A00000000000000000015 /* Frameworks */,
+				1D0A00000000000000000017 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				1D0A00000000000000000013 /* HealthBridgeWidget */,
+				1D0A00000000000000000014 /* Shared */,
+			);
+			name = HealthBridgeWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = HealthBridgeWidgetExtension;
+			productReference = 1D0A00000000000000000011 /* HealthBridgeWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D0A0000000000000000000A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					1D0A00000000000000000007 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					1D0A00000000000000000018 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+				};
+			};
+			buildConfigurationList = 1D0A0000000000000000000C /* Build configuration list for PBXProject "HealthBridge" */;
+			developmentRegion = it;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				it,
+				Base,
+			);
+			mainGroup = 1D0A00000000000000000005;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1D0A00000000000000000006 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D0A00000000000000000007 /* HealthBridge */,
+				1D0A00000000000000000018 /* HealthBridgeWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D0A00000000000000000009 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D0A00000000000000000017 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D0A00000000000000000008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D0A00000000000000000016 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D0A0000000000000000001F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D0A00000000000000000018 /* HealthBridgeWidgetExtension */;
+			targetProxy = 1D0A0000000000000000001E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D0A0000000000000000000D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1D0A0000000000000000000E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D0A0000000000000000000F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HealthBridge.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HealthBridge-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = HealthBridge;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_NSCalendarsFullAccessUsageDescription = "HealthBridge reads your calendars: only the times for the coach, the titles too for your morning briefing. It writes its planned workouts to the Workouts calendar.";
+				INFOPLIST_KEY_NSRemindersFullAccessUsageDescription = "HealthBridge sends the Reminders list you choose for your to-dos to your morning briefing.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "With Always access, the morning briefing weather follows you even when the app is closed. Only the latest position is sent, rounded to about one kilometre.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "HealthBridge sends the city you are in to your morning briefing, for the weather.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "HealthBridge reads your Health data to keep a copy on your own server.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "HealthBridge writes the water you log in the app or the widget to Health.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.healthbridge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1D0A00000000000000000010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HealthBridge.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HealthBridge-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = HealthBridge;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_NSCalendarsFullAccessUsageDescription = "HealthBridge reads your calendars: only the times for the coach, the titles too for your morning briefing. It writes its planned workouts to the Workouts calendar.";
+				INFOPLIST_KEY_NSRemindersFullAccessUsageDescription = "HealthBridge sends the Reminders list you choose for your to-dos to your morning briefing.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "With Always access, the morning briefing weather follows you even when the app is closed. Only the latest position is sent, rounded to about one kilometre.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "HealthBridge sends the city you are in to your morning briefing, for the weather.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "HealthBridge reads your Health data to keep a copy on your own server.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "HealthBridge writes the water you log in the app or the widget to Health.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.healthbridge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		1D0A0000000000000000001A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = HealthBridgeWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HealthBridgeWidget.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HealthBridge;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "The HealthBridge widget reads today's water.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "The HealthBridge widget writes the water you log to Health.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.healthbridge.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1D0A0000000000000000001B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = HealthBridgeWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HealthBridgeWidget.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HealthBridge;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "The HealthBridge widget reads today's water.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "The HealthBridge widget writes the water you log to Health.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.healthbridge.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D0A0000000000000000000B /* Build configuration list for PBXNativeTarget "HealthBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D0A0000000000000000000F /* Debug */,
+				1D0A00000000000000000010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D0A0000000000000000000C /* Build configuration list for PBXProject "HealthBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D0A0000000000000000000D /* Debug */,
+				1D0A0000000000000000000E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D0A00000000000000000019 /* Build configuration list for PBXNativeTarget "HealthBridgeWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D0A0000000000000000001A /* Debug */,
+				1D0A0000000000000000001B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D0A0000000000000000000A /* Project object */;
+}

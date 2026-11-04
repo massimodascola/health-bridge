@@ -1,0 +1,5 @@
+node_modules/
+.wrangler/
+# Real tokens: only the .example templates are committed
+.dev.vars
+.secrets

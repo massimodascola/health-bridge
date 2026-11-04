@@ -1,0 +1,29 @@
+// HealthBridge collection point: Cloudflare Workers + D1.
+// Docs: https://developers.cloudflare.com/workers/wrangler/configuration/
+{
+  "name": "health-bridge",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-09-01",
+  "workers_dev": true,
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "health-bridge-db",
+      // Paste the id printed by: npx wrangler d1 create health-bridge-db
+      // (add --jurisdiction eu to keep the data in the European Union).
+      "database_id": "00000000-0000-0000-0000-000000000000",
+      "migrations_dir": "migrations"
+    }
+  ],
+  // Maintenance every night at 03:30 UTC: daily history and cleanup (src/maintenance.ts).
+  // Every hour at minute 15: webhook automations (src/automations.ts).
+  "triggers": {
+    "crons": ["30 3 * * *", "15 * * * *"]
+  },
+  "observability": {
+    "enabled": true
+  }
+  // INGEST_TOKEN (write, the app), READ_TOKEN (read, the app) and SHARE_TOKEN (the
+  // coach's private link) are secrets: npx wrangler secret put <NAME>. Locally they
+  // live in .dev.vars, ignored by git. Never here, never in the code.
+}
